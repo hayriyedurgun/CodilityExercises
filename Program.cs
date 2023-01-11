@@ -23,9 +23,13 @@ namespace CodilityExercises
             //var result3 = smallestInt.solution(smallestSet3);
             //var result4 = smallestInt.solution(smallestSet4);
 
-            
-            var parkingBill = new ParkingBill();
-            parkingBill.solution("10:00", "13:21");
+
+            //var parkingBill = new ParkingBill();
+            //parkingBill.solution("10:00", "13:21");
+
+            var parityDegree = new ParityDegree();
+            var val = parityDegree.solution(24);
+            val = parityDegree.solution(192);
         }
     }
 }
