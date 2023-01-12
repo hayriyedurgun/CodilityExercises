@@ -27,9 +27,12 @@ namespace CodilityExercises
             //var parkingBill = new ParkingBill();
             //parkingBill.solution("10:00", "13:21");
 
-            var parityDegree = new ParityDegree();
-            var val = parityDegree.solution(24);
-            val = parityDegree.solution(192);
+            //var parityDegree = new ParityDegree();
+            //var val = parityDegree.solution(24);
+            //val = parityDegree.solution(192);
+
+            var firstUnique = new FirstUnique();
+            firstUnique.solution(new int[] { 4, 10, 5, 4, 2, 10 });
         }
     }
 }
