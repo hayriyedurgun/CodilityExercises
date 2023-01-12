@@ -10,14 +10,10 @@ namespace CodilityExercises
     {
         public int solution(int[] A)
         {
-            // Implement your solution here
-            foreach (var item in A)
+            var first = A.GroupBy(x => x).FirstOrDefault(x => x.Count() == 1);
+            if (first != null)
             {
-                var count = A.Count(x=> x == item);
-                if (count == 1)
-                {
-                    return item;
-                }
+                return first.Key;
             }
 
             return -1;
